@@ -1,3 +1,10 @@
-button:hover{
+.button:hover{
     background-color: red !important;
+}
+.see{
+    position: relative;
+    left: 90%;
+    bottom: 90px;
+    color: orangered;
+    font-size: 1.8em;
 }
