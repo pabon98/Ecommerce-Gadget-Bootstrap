@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ecommerce Gadget</title>
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Custom css -->
+	<link rel="stylesheet" href="css/styles/style.css">
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/006564a342.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<!-- header Start -->
+	<header style="background-color: #ffffff;">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light col-12 fixed-top ">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="images/logo/logo.png" alt="" width="150px" height="" class="d-inline-block align-text-top">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#Home">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#Product">Product</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#About Us">About Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#Contact Us">Contact Us</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- image slider -->
+		<section class="container-fluid bg-info my-5 py-5 my-sm-auto" id="Home">
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+						class="active " aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+						aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+						aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item my-5 active">
+						<div class="row d-flex justify-content-around align-items-center g-0">
+							<div class="col-lg-7 col-sm-12 ">
+								<h1 class="pb-2">MackBook Pro</h1>
+								<p class="pb-2">Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The Apple MacBook Pro packs 512GB of SSD storage.</p>
+								<button class="btn btn-dark">Buy Now <i class="fas fa-arrow-right"></i></button>
+
+							</div>
+							<div class="col-lg-4 col-sm-12">
+								<img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+							</div>
+						</div>
+
+					</div>
+					<div class="carousel-item my-5">
+						<div class="row d-flex justify-content-around align-items-center g-0">
+							<div class="col-lg-7  col-sm-12 ">
+								<h1 class="pb-2">Xiaomi Portable Bluetooth Speaker Mini – White</h1>
+								<p class="pb-2">● Built in Xiaomi AI, wake up quickly
+								
+							    ● Vertical modeling, quick operation
+								
+								● Type-C interface, 6-hour battery life
+							</p> 
+								<button class="btn btn-dark">Buy Now <i class="fas fa-arrow-right"></i></button>
+
+							</div>
+							<div class="col-lg-4 col-sm-12">
+								<img src="images/banner-products/slider-2.png" class="d-block w-100" alt="...">
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item my-5">
+						<div class="row d-flex justify-content-around align-items-center g-0">
+							<div class="col-lg-7 col-sm-12">
+								<h1 class="pb-2">JBL Xtreme 2 Speaker</h1>
+								<p class="pb-2">Sound Output:80 watt. Size Medium(8-12 in)Music Playing time 15 hours</p>
+								<button class="btn btn-dark">Buy Now <i class="fas fa-arrow-right"></i></button>
+
+							</div>
+							<div class="col-lg-4 col-sm-12">
+								<img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+	</header>
+	<!-- Main Start -->
+	<main>
+		<!-- Smartphone Section -->
+		<section class="container-fluid" id="Product">
+			<h1 class="my-5">Smartphone</h1>
+			<h4 class="see">See all</h4>
+			<div class="row row-cols-1 row-cols-md-3 col-12 g-4 d-flex justify-content-around">
+				<div class="col d-flex justify-content-around">
+					<div class="card border-0 shadow-lg h-100">
+						<img src="images/phone/phone-2.png" class="card-img-top img-fluid my-4" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Iphone 11 Pro</h5>
+							<p class="card-text">Iphone 11 Pro mobile was launched on 10th September 2019.</p>
+						</div>
+						<div>
+							<button class="btn btn-dark my-3 ms-3">Buy Now <i class="fas fa-arrow-right"></i></button>
+						</div>
+					</div>
+				</div>
+				<div class="col d-flex justify-content-around">
+					<div class="card border-0 shadow-lg h-100">
+						<img src="images/phone/phone-3.png" class="card-img-top img-fluid my-4" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Samsung Galaxy Note 10+</h5>
+							<p class="card-text">Samsung Galaxy Note 10 mobile was launched on 7th August 2019.</p>
+						</div>
+						<div>
+							<button class="btn btn-dark my-3 ms-3">Buy Now <i class="fas fa-arrow-right"></i></button>
+						</div>
+					</div>
+				</div>
+				<div class="col d-flex justify-content-around">
+					<div class="card border-0 shadow-lg h-100">
+						<img src="images/phone/phone-1.png" class="card-img-top img-fluid my-4" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Xiaomi Redmi K30</h5>
+							<p class="card-text">Redmi K30 5G smartphone was launched on 10th December 2019.</p>
+						</div>
+						<div>
+							<button class="btn btn-dark my-3 ms-3">Buy Now <i class="fas fa-arrow-right"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+         <!-- laptop section -->
+			<section class="container" id="About Us">
+				<h1 class="my-5">Laptop</h1>
+				<h4 class="see">See all</h4>
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col">
+						<div class="card border-0 shadow-lg h-100">
+							<img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Asus Vivobook</h5>
+								<p class="card-text">Some quick example test to build on the card title</p>
+								<p>$999</p>
+							</div>
+							<div>
+								<button class="btn btn-dark my-3 ms-3">Buy Now <i class="fas fa-arrow-right"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card border-0 shadow-lg h-100">
+							<img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Razer Blad 15</h5>
+								<p class="card-text">Some quick example test to build on the card title</p>
+								<p>$2799</p>
+							</div>
+							<div>
+								<button class="btn btn-dark hover-effects my-3 ms-3">Buy Now <i class="fas fa-arrow-right"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card border-0 shadow-lg h-100">
+							<img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
+								<p class="card-text">Redmi K30 5G smartphone was launched on 10th December 2019.</p>
+								<p>$999</p>
+							</div>
+							<div>
+								<button class="btn btn-dark my-3 ms-3">Buy Now <i class="fas fa-arrow-right"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Categories section -->
+			<section class="container">
+				<h1 class="text-center mt-5 pt-5 bottom">Categories</h1>
+				<div class="row mt-5 me-2 ">
+					<div class="col-lg-2 col-md-3 col-sm-12 col-12 d-flex justify-content-center align-items-center flex-column">
+						<div class="d-flex justify-content-center align-items-center flex-column shadow p-3 ms-5 bg-body rounded">
+							<img class="img-fluid" src="images/Categories/bag.png" alt="">
+							<p>Bag</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-12 d-flex justify-content-center align-items-center flex-column mt-5">
+						<div class="d-flex justify-content-center align-items-center flex-column shadow p-3 ms-5 bg-body rounded">
+							<img src="images/Categories/perfume.png" alt="">
+							<p>Beauty</p>
+						</div>
+						<div class=" mt-5 d-flex justify-content-center align-items-center flex-column shadow p-3 ms-5 bg-body rounded">
+							<img src="images/Categories/shoe.png" alt="">
+							<p>Shoe</p>
+						</div>
+					</div>
+					<div class="col-lg-7 col-md-5 col-sm-12 col-12">
+						<img class="w-100" src="images/Categories/pale-order.png" alt="">
+					</div>
+				</div>
+			</section>
+			
+			<!-- Subscribe -->
+			<section  style="height: 400px;"
+				class="container mt-5 bg-info d-flex justify-content-center align-items-center rounded-3" id="Contact Us">
+				<div>
+					<h1>LET'S STAY IN TOUCH</h1>
+					<p>Get updates on sales, specials and more</p>
+					<input class="form-control" type="text" placeholder="Your Email">
+					<br>
+					<button class="btn btn-warning">Submit</button>
+				</div>
+			</section>
+	</main>
+	<!-- footer part -->
+	<footer class="mt-5 text-center w-100">
+		<p><span>©2025.Ecommerce Gadget Commerce. All rights reserved. Sofia, Bulgaria.</span></p>
+	</footer>
+	<!-- bootstrap js   -->
+	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
